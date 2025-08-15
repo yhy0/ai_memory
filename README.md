@@ -9,8 +9,8 @@ ai_memory/
 │
 ├── PROJECT_MEMORY.json   # 项目的长期记忆（持久层）
 ├── CHANGE_HISTORY.json   # 项目的历史修改记录，方便回溯
-├── GEMINI.md   					# GEMINI 规则，GEMINI 负责规划，排查问题，claude 负责实现代码
-├── global_rules.md   		# cursor 类 APP 的项目规则设定
+├── GEMINI.md             # GEMINI 规则，GEMINI 负责规划，排查问题，claude 负责实现代码
+├── global_rules.md       # cursor 类 APP 的项目规则设定
 └── README.md             # 使用说明
 ```
 

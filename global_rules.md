@@ -65,14 +65,16 @@ alwaysApply: true
 
 **示例 1：新增模块**
 
+recent_changes 新增：
 ```json
-// recent_changes 新增：
 {
   "date": "2025-08-20",
   "change": "新增日志分析模块"
 }
+```
+core_modules 更新：
 
-// core_modules 更新：
+```json
 {
   "name": "日志分析模块 (backend/logs)",
   "description": "负责收集、解析并分析系统日志，与威胁检测引擎联动，支持攻击溯源和合规审计。"
@@ -81,29 +83,31 @@ alwaysApply: true
 
 **示例 2：架构调整**
 
+recent_changes 新增：
 ```json
-// recent_changes 新增：
 {
   "date": "2025-08-20",
   "change": "架构调整为事件驱动"
 }
-
-// arch 更新：
-"backend": "Python 3，基于 FastAPI 框架，后端架构调整为事件驱动模式。通过事件总线统一调度多智能体系统，替代传统请求驱动模式。"
 ```
+
+arch 更新：
+"backend": "Python 3，基于 FastAPI 框架，后端架构调整为事件驱动模式。通过事件总线统一调度多智能体系统，替代传统请求驱动模式。"
+
 
 **示例 3：编码规范变化**
 
+recent_changes 新增：
 ```json
-// recent_changes 新增：
 {
   "date": "2025-08-20",
   "change": "统一API调用方式为 services 层封装"
 }
-
-// coding_conventions 更新：
-"frontend": "所有 API 调用必须通过 services 目录的统一封装方法完成，禁止直接在组件中调用 axios。"
 ```
+
+coding_conventions 更新：
+"frontend": "所有 API 调用必须通过 services 目录的统一封装方法完成，禁止直接在组件中调用 axios。"
+
 
 ## Step 4：压缩历史
 
